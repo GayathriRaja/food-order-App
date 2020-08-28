@@ -1,0 +1,198 @@
+
+
+#login{
+color:green;
+text-align: left;
+}
+
+#register{
+       color:rgb(32, 61, 155);
+       text-align: center;
+       /* text-align: right; */
+       
+}
+
+
+/* #food{
+       background-color:lightslategrey;
+
+} */
+/* #HeaderColor{
+       color: cornflowerblue;
+} */
+
+#navColour{
+       color:yellow;
+       font-size: medium;
+      
+
+}
+
+#navColor{
+       background-color: rgb(69, 77, 82);
+}
+
+
+#headColor{
+       color:rgb(65, 172, 51) ;
+       /* color: rgb(187, 189, 91); */
+
+       font-size: 25px;
+       font-style: italic;
+}
+
+
+#tBodyColor{ 
+
+
+       /* color: rgb(214, 210, 230); */
+ color: white;
+
+
+
+
+       /* color:rgb(24, 148, 20); */
+       /* color: rgb(206, 102, 102); */
+
+       /* color: rgb(27, 7, 32); */
+
+/*  */
+       /* color:rgb(51, 6, 43); */
+       /* color: saddlebrown; */
+       font-size: 25px;
+
+       /* font-style: italic bold; */
+} 
+
+.backgroundImage{
+        background-size: cover; 
+       /* background-image: url("./Images/christmas-board-decors-1303098.jpg"); */
+              background-image: url("./Images/leftSideImage3.jpg");
+
+     /*  background-size: cover; */
+      background-position: center center;
+       height: 100vh;
+       position: fixed;
+       /* background-position: center; */
+       left: 0;
+       right: 0;
+       z-index: -1;
+       filter: blur(5px);
+       -webkit-filter: blur(5px);
+
+       /* -webkit-background-size:cover; */
+       
+}
+
+#img{
+       /* transform: rotate3d(0);
+       transform: rotate3d(1, 1, 1, 45deg);
+       transform: rotate3d(2, -1, -1, -0.2turn); */
+       transform: rotate3d(0, 1, 0.5, 3.142rad);
+
+       padding-left: 1px;
+       padding-right: 1px;
+       padding-top: 1px;
+       padding-bottom: 1px;
+
+       /* border-style: solid; 
+        border-color: coral; */
+       
+       /* border-color:1px solid olive  ; */
+}
+
+
+ 
+
+  /* #bodyColor {  */
+/* background-size: cover; */
+       /* background-image: url("https://images.all-free-download.com/images/graphiclarge/rippled_wall_background_01_hd_pictures_169887.jpg"); */
+
+
+       /* background-image: url("./Images/background-blur-clean-clear-531880.jpg"); */
+
+    
+       /* background-image: url("./Images/summer.jpg"); */
+       
+
+
+         
+       /* -webkit-filter: blur(10px);
+    filter: blur(10px); */
+        /* */ 
+
+
+    /*   background: linear-gradient(to right, #99ccff 0%, #cc33ff 100%); */
+
+       /* background: linear-gradient(to right, #0099ff 0%, #cc99ff 100%); */
+              /* background: linear-gradient(to top right, #993333 0%, #669900 100%); */
+       /* background: linear-gradient(to right, #993333 0%, #cccc00 100%); */
+       /* background: linear-gradient(to right, #6666ff 0%, #ff33cc 100%); */
+      /* background-color:#a19f9f; */
+
+      /* color: rgb(51, 6, 43);  */
+
+       /* color: rgb(27, 68, 39); */
+      
+/* }  */
+
+
+#li{
+       list-style:none;
+       
+
+}
+
+#one{
+       white-space: pre-wrap;
+       /* white-space: pre-line; */
+
+       color: maroon;
+      height: 50px;
+      width: 50px;
+      background-color: rgb(21, 21, 24);
+      font-style: oblique;
+font-weight: bolder;
+font-size: 30px;
+background-image: 40px;
+       /* border-radius:0cm; */
+      
+}
+
+#logo{
+    /* color: rgb(189, 37, 82); */
+    /* vertical-align: 0.5px; */
+    white-space: pre-wrap;
+
+    vertical-align: text-bottom;
+     height: 40px;
+     width: 40px;
+     /* border-radius: 10px ; */
+     /* padding:8px; */
+
+     /* border: 3px dotted rgb(38, 123, 126); */
+
+ 
+     border: 3px dotted #0d0413;
+       
+       
+       /* background: linear-gradient(to top right, #006600 0%, #660033 100%); */
+
+       /* background: linear-gradient(to top right, #993333 0%, #669900 100%); */
+       /* background: linear-gradient(to top right, #993333 0%, #ffff66 100%); */
+       /* background-color: linear-gradient(to top right, #00cc00 0%, #ff0066 100%); */
+       /* background: linear-gradient(to right, red , rgb(153, 42, 103)); */
+/* 
+       background: linear-gradient(to top right, #00cc00 0%, #cc3399 100%);
+       background: linear-gradient(to top right, #00cc00 0%, #ff6699 100%); */
+/*  */
+       /* background: linear-gradient(to top right, #006600 0%, #ff9933 100%); */
+       /* background-color:darkolivegreen; */
+       /* background: linear-gradient(to top right, #660033 0%, #000066 100%); */
+       /* background-color:darkgoldenrod; */
+       /* background-color:greenyellow; */
+       
+              /* background: linear-gradient(to top right, #993333 0%, #669900 100%); */
+
+       
+ }
