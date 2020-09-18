@@ -48,4 +48,3 @@ export const cuisines = ['IndianCuisine','ItalianCuisine','Pizza'];
 
 
 
-// function fu

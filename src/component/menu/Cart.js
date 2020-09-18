@@ -1,8 +1,8 @@
-import  React,{useState, useEffect} from 'react'
-import Header from './Header'
-import FoodItemListFunctionalComponent from './FoodItemListFunctionalComponent'
+import  React,{useState, useEffect} from 'react';
+import Header from './Header';
+import FoodItemListFunctionalComponent from './FoodItemListFunctionalComponent';
 import { Route } from 'react-router-dom';
-import {useSelector} from 'redux';
+import {useSelector} from 'react-redux';
 
 
  const Cart=(props)=>{
@@ -15,7 +15,9 @@ import {useSelector} from 'redux';
 
      
 
-
+    
+    
+    
     const updateCuisine = (item) => {
                   // alert("item in mainmenu:"+item);
                   setselectedCuisine(item); 

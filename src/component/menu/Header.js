@@ -2,8 +2,11 @@ import React,{useState,useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import {cuisines}  from '../../utils/constants';
 import '../FoodDescription.css';
-import LogoImage from '../Images/GImage1.jpg'
-import {useSelector} from 'react-redux';  
+import LogoImage from '../Images/GImage1.jpg';
+import {useSelector,useDispatch} from 'react-redux';  
+import DefaultArrayCartAction from './Redux/Action/defaultArrayCartAction';
+import DefaultCartUpdateValue from './Redux/Action/DefaultCartUpdateValue';
+import defultPriceAction from './Redux/Action/defultPriceAction';
 
 
 
@@ -13,6 +16,7 @@ import {useSelector} from 'react-redux';
 const Header =  (props) => {
 
   const selector = useSelector(state => state.updateCart);
+  const Dispatch=useDispatch();
 
     const onItemClick = clickedItem => () => {
      
@@ -97,9 +101,14 @@ useEffect(() => {
   
  var color = ["#990026", "#990073", "#4d0099","#007399","#4d9900","#997300","#994d00"];
 
+
+//  doc.style.borderStyle="dotted";
+
+
    doc.style.borderColor = color[i];
+
   
-   doc.style.background = color[i];
+  //  doc.style.background = color[i];
 
    i = (i + 1) % color.length;
  }
@@ -110,6 +119,8 @@ useEffect(() => {
 /////Multiple event Listener
       return (
         <div id="HeaderColor">
+               <div className="backgroundImage"></div>
+
            <nav id="navColor" className="navbar navbar-expand-lg navbar-primary ">           
                 <ul class="navbar-nav">
                        
@@ -125,8 +136,9 @@ useEffect(() => {
                <ul class="form-inline my-2 my-lg-0 list-unstyled">
                               <li>  <input  class="form-control  mr-sm-2"   type="search" onChange={onChangesearchButton} placeholder="Search" aria-label="Search"/> </li>
                               <li> <button id="navColour"  class="btn btn-outline-success my-2 my-sm-0 "  onClick={onClickedSearchButton}  type="submit">Search</button> </li>
-      <li id="navColour" class="nav-link navbar-light" onClick={onClickHandlerCart}>Cart({selector})</li>
-
+                              <li id="navColour" class="nav-link navbar-light" onClick={onClickHandlerCart}>Cart({selector})</li>
+                              {/* <Link to="/">LOGOUT</Link> */}
+                              <Link id="navColour" class="nav-link navbar-light" exact strict to="/" onClick={()=>{Dispatch(DefaultArrayCartAction());Dispatch(DefaultCartUpdateValue());Dispatch(defultPriceAction())}}>LOGOUT <span class="sr-only">LOGOUT</span></Link>
                      </ul> 
            </nav>
                

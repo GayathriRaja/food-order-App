@@ -7,6 +7,9 @@
         case "reduceCart":
              return     state=state-1;
 
+             case "defaultCart":
+                 return state=0;
+
         default:
            return state
     }
@@ -24,11 +27,27 @@ export const  arrayForCart=(state=[],action)=>{
          )
 
 
+         case "incrementArray":
+             return(
+                 [...state,action.payload]
+             )
+
+        
+
          case "deleteArray":
              return (
                       [state.splice(state.indexOf(action.payload),1)],
                       [...state]
              )
+
+
+              case "defaultArray":
+ 
+
+              return state=[];
+
+
+
 
             default:
                 //console.log("default:"+state);
@@ -37,3 +56,26 @@ export const  arrayForCart=(state=[],action)=>{
 }
 
 
+export const priceCalculationReducer=(state=0,action)=>{
+    switch(action.type) {
+
+
+        case "priceAmount":
+            return state=state+action.parameter;
+            
+         
+        case "decreasePrice":
+            return state=state-action.payload;
+
+
+        case "defaultPrice":
+            return state=0;
+
+
+            default:
+                // console.log("action.parameter:"+action.parameter);
+
+                return state;
+
+    }
+}
