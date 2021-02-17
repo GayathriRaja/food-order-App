@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/food-order-App/static/css/main.bbc40b92.chunk.css",
-    "main.js": "/food-order-App/static/js/main.6878ff5f.chunk.js",
-    "main.js.map": "/food-order-App/static/js/main.6878ff5f.chunk.js.map",
-    "runtime-main.js": "/food-order-App/static/js/runtime-main.3c4ab448.js",
-    "runtime-main.js.map": "/food-order-App/static/js/runtime-main.3c4ab448.js.map",
-    "static/js/2.b6ede45d.chunk.js": "/food-order-App/static/js/2.b6ede45d.chunk.js",
-    "static/js/2.b6ede45d.chunk.js.map": "/food-order-App/static/js/2.b6ede45d.chunk.js.map",
-    "index.html": "/food-order-App/index.html",
-    "precache-manifest.3638e09abf850f393cfd44c51bf8573d.js": "/food-order-App/precache-manifest.3638e09abf850f393cfd44c51bf8573d.js",
-    "service-worker.js": "/food-order-App/service-worker.js",
-    "static/css/main.bbc40b92.chunk.css.map": "/food-order-App/static/css/main.bbc40b92.chunk.css.map",
-    "static/js/2.b6ede45d.chunk.js.LICENSE.txt": "/food-order-App/static/js/2.b6ede45d.chunk.js.LICENSE.txt",
-    "static/media/GImage1.jpg": "/food-order-App/static/media/GImage1.e1de8a11.jpg",
-    "static/media/FoodDescription.css": "/food-order-App/static/media/leftSideImage3.f26da012.jpg"
+    "main.css": "./static/css/main.7664d42b.chunk.css",
+    "main.js": "./static/js/main.b214df38.chunk.js",
+    "main.js.map": "./static/js/main.b214df38.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.b34fbcdb.js",
+    "runtime-main.js.map": "./static/js/runtime-main.b34fbcdb.js.map",
+    "static/js/2.b6ede45d.chunk.js": "./static/js/2.b6ede45d.chunk.js",
+    "static/js/2.b6ede45d.chunk.js.map": "./static/js/2.b6ede45d.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.38774e4baf27e237dc606399a84db11f.js": "./precache-manifest.38774e4baf27e237dc606399a84db11f.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.7664d42b.chunk.css.map": "./static/css/main.7664d42b.chunk.css.map",
+    "static/js/2.b6ede45d.chunk.js.LICENSE.txt": "./static/js/2.b6ede45d.chunk.js.LICENSE.txt",
+    "static/media/GImage1.jpg": "./static/media/GImage1.e1de8a11.jpg",
+    "static/media/FoodDescription.css": "./static/media/leftSideImage3.f26da012.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c4ab448.js",
+    "static/js/runtime-main.b34fbcdb.js",
     "static/js/2.b6ede45d.chunk.js",
-    "static/css/main.bbc40b92.chunk.css",
-    "static/js/main.6878ff5f.chunk.js"
+    "static/css/main.7664d42b.chunk.css",
+    "static/js/main.b214df38.chunk.js"
   ]
 }
