@@ -1,144 +1,133 @@
-
-
-#lbl_Email{
-       width: 257px;
-       padding-left :- 100px;
-      text-align: right;
-      color:rgb(54, 206, 198);
-      background: rgb(61, 56, 53);
-      /* border: 2px solid rgb(67, 202, 54); */
-      margin-left: -50px;
-      margin-bottom: 30px;
-
+#lbl_Email {
+  width: 257px;
+  padding-left: -100px;
+  text-align: right;
+  color: rgb(54, 206, 198);
+  background: rgb(61, 56, 53);
+  /* border: 2px solid rgb(67, 202, 54); */
+  margin-left: -50px;
+  margin-bottom: 30px;
 }
 
-#lbl_pwd{
-       width: 270px;
-       padding-left :-100px;
-      text-align: right;
-      color:rgb(54, 206, 198);
-      background: rgb(61, 56, 53);
-      /* border: 2px solid rgb(33, 209, 98); */
-      margin-left: -65px;
-      margin-bottom: 30px;
-
+#lbl_pwd {
+  width: 270px;
+  padding-left: -100px;
+  text-align: right;
+  color: rgb(54, 206, 198);
+  background: rgb(61, 56, 53);
+  /* border: 2px solid rgb(33, 209, 98); */
+  margin-left: -65px;
+  margin-bottom: 30px;
 }
 /* #loginid{
        color:rgb(54, 206, 198);
        background: rgb(61, 56, 53);
 } */
 
-#lbl_message{
-       text-align: center;
-       margin-top: 10px;
-       color: rgb(107, 186, 238);
-       background: rgb(18, 7, 58);
-       margin-left: 15px;
+#lbl_message {
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(107, 186, 238);
+  background: rgb(18, 7, 58);
+  margin-left: 15px;
 }
 
-#lbl_message_register{
-       /* font-size: 15px; */
-       text-align: center;
-       width:290px;
-       /* border: 5px solid orange; */
-       padding-left: -10px;
-       padding-right: 15px;
-/* padding-left: 22px; */
-       /* height:20px; */
-       color:rgb(54, 206, 198);
-       background: rgb(61, 56, 53);
-       margin-left: 30px;
-       margin-bottom: 15px;
-       margin-top: 10px;
-
+#lbl_message_register {
+  /* font-size: 15px; */
+  text-align: center;
+  width: 290px;
+  /* border: 5px solid orange; */
+  padding-left: -10px;
+  padding-right: 15px;
+  /* padding-left: 22px; */
+  /* height:20px; */
+  color: rgb(54, 206, 198);
+  background: rgb(61, 56, 53);
+  margin-left: 30px;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
-#lbl_message_login{
-       margin-left: -70px;
-       margin-top: 20px;
-       text-align: center;
-       width:290px;
-       color:rgb(54, 206, 198);
-       background: rgb(61, 56, 53);
+#lbl_message_login {
+  margin-left: -70px;
+  margin-top: 20px;
+  text-align: center;
+  width: 290px;
+  color: rgb(54, 206, 198);
+  background: rgb(61, 56, 53);
 }
 
-#login{
-       color:rgb(145, 137, 67);
-       text-align: right;
-       /* padding: 10px; */
-       padding-left : 100px;
-       padding-right: 200px;              
-       /* border: 2px solid green; */
-       /* padding-left : -1000px; */
-       /* padding-bottom : 10px; */
+#login {
+  color: rgb(145, 137, 67);
+  text-align: right;
+  /* padding: 10px; */
+  padding-left: 100px;
+  padding-right: 200px;
+  /* border: 2px solid green; */
+  /* padding-left : -1000px; */
+  /* padding-bottom : 10px; */
 
-       margin-left: 765px;
+  margin-left: 765px;
 
-       /* margin-left: 650px; */
+  /* margin-left: 650px; */
 
+  /* border: 5px solid orange; */
+  margin-top: 100px;
+  /* margin-bottom: 500px;  */
 
-       /* border: 5px solid orange; */
-       margin-top:100px;
-       /* margin-bottom: 500px;  */
+  width: 400px;
+  height: 400px;
 
-       width: 400px;
-       height: 400px;
+  border: 25px solid rgb(20, 31, 24);
 
-       border: 25px solid rgb(20, 31, 24);
-
-       border-radius: 25px;
-
-       }
-
-#register{
-/* align-content: center; */
-       width: 400px;
-       color:rgb(54, 206, 198);
-       text-align: right;
-       padding-right: 50px;
-       /* padding-right: 150px; */
-       margin-left: 200px;
-
-       /* margin-right: 200px; */
-       /* margin-right: 300px; */
-       margin-top:-425px;
-       margin-bottom: 0px;
-       /* border: 2px solid blue; */
-       /* text-align: right; */
-       /* padding-top : 100px; */
-       border: 25px solid rgb(20, 31, 24);
-
-border-radius: 25px;
-       
+  border-radius: 25px;
 }
 
+#register {
+  /* align-content: center; */
+  width: 400px;
+  color: rgb(54, 206, 198);
+  text-align: right;
+  padding-right: 50px;
+  /* padding-right: 150px; */
+  margin-left: 200px;
 
-#headingLogin{
-       height: 50px;
-       width:90px;
-       padding-top: 5px;
-       padding-right: 5px;
-       padding-left: 5px;
-       text-align: center;
-       /* border: 3px solid rgb(20, 31, 24); */
-       margin-left: 30px;
-       margin-bottom: 40px;
-       margin-top: 10px;
+  /* margin-right: 200px; */
+  /* margin-right: 300px; */
+  margin-top: -425px;
+  margin-bottom: 0px;
+  /* border: 2px solid blue; */
+  /* text-align: right; */
+  /* padding-top : 100px; */
+  border: 25px solid rgb(20, 31, 24);
 
-       background: rgb(21, 21, 24);
-
+  border-radius: 25px;
 }
 
-#headingRegister{
-       color: rosybrown;
-       text-align: center;
-       background: rgb(21, 21, 24);
-       padding-bottom: 5px;
-       margin-top: 10px;
-       margin-left: 110px;
-       width: 140px;
-       margin-bottom: 30px;
+#headingLogin {
+  height: 50px;
+  width: 90px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: center;
+  /* border: 3px solid rgb(20, 31, 24); */
+  margin-left: 30px;
+  margin-bottom: 40px;
+  margin-top: 10px;
 
+  background: rgb(21, 21, 24);
+}
+
+#headingRegister {
+  color: rosybrown;
+  text-align: center;
+  background: rgb(21, 21, 24);
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-left: 110px;
+  width: 140px;
+  margin-bottom: 30px;
 }
 
 /* #adress{
@@ -159,53 +148,47 @@ border-radius: 25px;
        padding-bottom: 30px;
 } */
 
-
-#btn_login{
-       align-content: center;
-       padding-right: 50px;
-       padding-left: 50px;
-       margin-right: 30px;
-       color: rgb(196, 123, 90);
-       background-color: rgb(51, 24, 12);
-       font-weight: bold;
-
+#btn_login {
+  align-content: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: 30px;
+  color: rgb(196, 123, 90);
+  background-color: rgb(51, 24, 12);
+  font-weight: bold;
 }
 
+#btn_register {
+  align-content: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: 50px;
+  margin-top: 1px;
+  margin-bottom: 10px;
 
-
-#btn_register{
-       align-content: center;
-       padding-right: 50px;
-       padding-left: 50px;
-       margin-right: 50px;
-       margin-top: 1px;
-       margin-bottom: 10px;
-
-background-color: rgb(51, 24, 12);
-       color: rgb(214, 179, 155);
-       font-weight: bold;
+  background-color: rgb(51, 24, 12);
+  color: rgb(214, 179, 155);
+  font-weight: bold;
 }
 
-.loginAndRegister{
-       background-size: cover; 
-       /* background-image: url("./Images/christmas-board-decors-1303098.jpg"); */
-              background-image: url("./Images/leftSideImage3.jpg");
+.loginAndRegister {
+  background-size: cover;
+  /* background-image: url("./Images/christmas-board-decors-1303098.jpg"); */
+  background-image: url("./Images/leftSideImage3.jpg");
 
-     /*  background-size: cover; */
-      background-position: center center;
-        height: 100vh; 
-       position: fixed;
-       /* background-position: center; */
-       left: 0;
-       right: 0;
-       z-index: -1;
-       filter: blur(5px);
-       -webkit-filter: blur(5px);
+  /*  background-size: cover; */
+  background-position: center center;
+  height: 100vh;
+  position: fixed;
+  /* background-position: center; */
+  left: 0;
+  right: 0;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 
-       /* -webkit-background-size:cover; */
-       
+  /* -webkit-background-size:cover; */
 }
-
 
 /* #food{
        background-color:lightslategrey;
@@ -215,188 +198,159 @@ background-color: rgb(51, 24, 12);
        color: cornflowerblue;
 } */
 
-#navColour{
-       color:yellow;
-       font-size: medium;
-      
-
+#navColour {
+  color: yellow;
+  font-size: medium;
 }
-#loginNav
-{
-       background-color: rgb(69, 77, 82);
-
+#loginNav {
+  background-color: rgb(69, 77, 82);
 }
-#navColor{
-       background-color: rgb(69, 77, 82);
+#navColor {
+  background-color: rgb(69, 77, 82);
+  cursor: pointer;
 }
 
+#headColor {
+  color: rgb(65, 172, 51);
+  /* color: rgb(187, 189, 91); */
 
-#headColor{
-       color:rgb(65, 172, 51) ;
-       /* color: rgb(187, 189, 91); */
-
-       font-size: 25px;
-       font-style: italic;
+  font-size: 25px;
+  font-style: italic;
 }
 
+#tBodyColor {
+  /* color: rgb(214, 210, 230); */
+  color: white;
 
-#tBodyColor{ 
+  /* color:rgb(24, 148, 20); */
+  /* color: rgb(206, 102, 102); */
 
+  /* color: rgb(27, 7, 32); */
 
-       /* color: rgb(214, 210, 230); */
- color: white;
+  /*  */
+  /* color:rgb(51, 6, 43); */
+  /* color: saddlebrown; */
+  font-size: 25px;
 
-
-
-
-       /* color:rgb(24, 148, 20); */
-       /* color: rgb(206, 102, 102); */
-
-       /* color: rgb(27, 7, 32); */
-
-/*  */
-       /* color:rgb(51, 6, 43); */
-       /* color: saddlebrown; */
-       font-size: 25px;
-
-       /* font-style: italic bold; */
-} 
-
-.backgroundImage{
-        background-size: cover; 
-       /* background-image: url("./Images/christmas-board-decors-1303098.jpg"); */
-              background-image: url("./Images/leftSideImage3.jpg");
-
-     /*  background-size: cover; */
-      background-position: center center;
-       height: 100vh;
-       position: fixed;
-       /* background-position: center; */
-       left: 0;
-       right: 0;
-       z-index: -1;
-       filter: blur(5px);
-       -webkit-filter: blur(5px);
-
-       /* -webkit-background-size:cover; */
-       
+  /* font-style: italic bold; */
 }
 
-#img{
-       /* transform: rotate3d(0);
+.backgroundImage {
+  background-size: cover;
+  /* background-image: url("./Images/christmas-board-decors-1303098.jpg"); */
+  background-image: url("./Images/leftSideImage3.jpg");
+
+  /*  background-size: cover; */
+  background-position: center center;
+  height: 100vh;
+  position: fixed;
+  /* background-position: center; */
+  left: 0;
+  right: 0;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+
+  /* -webkit-background-size:cover; */
+}
+
+#img {
+  /* transform: rotate3d(0);
        transform: rotate3d(1, 1, 1, 45deg);
        transform: rotate3d(2, -1, -1, -0.2turn); */
-       transform: rotate3d(0, 1, 0.5, 3.142rad);
+  transform: rotate3d(0, 1, 0.5, 3.142rad);
 
-       padding-left: 1px;
-       padding-right: 1px;
-       padding-top: 1px;
-       padding-bottom: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
 
-       /* border-style: solid; 
+  /* border-style: solid; 
         border-color: coral; */
-       
-       /* border-color:1px solid olive  ; */
+
+  /* border-color:1px solid olive  ; */
 }
 
-
- 
-
-  /* #bodyColor {  */
+/* #bodyColor {  */
 /* background-size: cover; */
-       /* background-image: url("https://images.all-free-download.com/images/graphiclarge/rippled_wall_background_01_hd_pictures_169887.jpg"); */
+/* background-image: url("https://images.all-free-download.com/images/graphiclarge/rippled_wall_background_01_hd_pictures_169887.jpg"); */
 
+/* background-image: url("./Images/background-blur-clean-clear-531880.jpg"); */
 
-       /* background-image: url("./Images/background-blur-clean-clear-531880.jpg"); */
+/* background-image: url("./Images/summer.jpg"); */
 
-    
-       /* background-image: url("./Images/summer.jpg"); */
-       
-
-
-         
-       /* -webkit-filter: blur(10px);
+/* -webkit-filter: blur(10px);
     filter: blur(10px); */
-        /* */ 
+/* */
 
+/*   background: linear-gradient(to right, #99ccff 0%, #cc33ff 100%); */
 
-    /*   background: linear-gradient(to right, #99ccff 0%, #cc33ff 100%); */
+/* background: linear-gradient(to right, #0099ff 0%, #cc99ff 100%); */
+/* background: linear-gradient(to top right, #993333 0%, #669900 100%); */
+/* background: linear-gradient(to right, #993333 0%, #cccc00 100%); */
+/* background: linear-gradient(to right, #6666ff 0%, #ff33cc 100%); */
+/* background-color:#a19f9f; */
 
-       /* background: linear-gradient(to right, #0099ff 0%, #cc99ff 100%); */
-              /* background: linear-gradient(to top right, #993333 0%, #669900 100%); */
-       /* background: linear-gradient(to right, #993333 0%, #cccc00 100%); */
-       /* background: linear-gradient(to right, #6666ff 0%, #ff33cc 100%); */
-      /* background-color:#a19f9f; */
+/* color: rgb(51, 6, 43);  */
 
-      /* color: rgb(51, 6, 43);  */
+/* color: rgb(27, 68, 39); */
 
-       /* color: rgb(27, 68, 39); */
-      
 /* }  */
 
-
-#li{
-       list-style:none;
-       
-
+#li {
+  list-style: none;
 }
 
-#one{
-       white-space: pre-wrap;
-       /* white-space: pre-line; */
+#one {
+  white-space: pre-wrap;
+  /* white-space: pre-line; */
 
-       color: maroon;
-      height: 50px;
-      width: 50px;
-      background-color: rgb(21, 21, 24);
-      font-style: oblique;
-font-weight: bolder;
-font-size: 30px;
-background-image: 40px;
-       /* border-radius:0cm; */
-      
+  color: maroon;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(21, 21, 24);
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 30px;
+  background-image: 40px;
+  /* border-radius:0cm; */
 }
 
-#logo{
-    /* color: rgb(189, 37, 82); */
-    /* vertical-align: 0.5px; */
-    white-space: pre-wrap;
+#logo {
+  /* color: rgb(189, 37, 82); */
+  /* vertical-align: 0.5px; */
+  white-space: pre-wrap;
 
-    vertical-align: text-bottom;
-     height: 40px;
-     width: 40px;
-     /* border-radius: 10px ; */
-     /* padding:8px; */
+  vertical-align: text-bottom;
+  height: 40px;
+  width: 40px;
+  /* border-radius: 10px ; */
+  /* padding:8px; */
 
-     /* border: 3px dotted rgb(38, 123, 126); */
+  /* border: 3px dotted rgb(38, 123, 126); */
 
- 
-     border: 3px dotted;
-       
-       
-       /* background: linear-gradient(to top right, #006600 0%, #660033 100%); */
+  border: 3px dotted;
 
-       /* background: linear-gradient(to top right, #993333 0%, #669900 100%); */
-       /* background: linear-gradient(to top right, #993333 0%, #ffff66 100%); */
-       /* background-color: linear-gradient(to top right, #00cc00 0%, #ff0066 100%); */
-       /* background: linear-gradient(to right, red , rgb(153, 42, 103)); */
-/* 
+  /* background: linear-gradient(to top right, #006600 0%, #660033 100%); */
+
+  /* background: linear-gradient(to top right, #993333 0%, #669900 100%); */
+  /* background: linear-gradient(to top right, #993333 0%, #ffff66 100%); */
+  /* background-color: linear-gradient(to top right, #00cc00 0%, #ff0066 100%); */
+  /* background: linear-gradient(to right, red , rgb(153, 42, 103)); */
+  /* 
        background: linear-gradient(to top right, #00cc00 0%, #cc3399 100%);
        background: linear-gradient(to top right, #00cc00 0%, #ff6699 100%); */
-/*  */
-       /* background: linear-gradient(to top right, #006600 0%, #ff9933 100%); */
-       /* background-color:darkolivegreen; */
-       /* background: linear-gradient(to top right, #660033 0%, #000066 100%); */
-       /* background-color:darkgoldenrod; */
-       /* background-color:greenyellow; */
-       
-              /* background: linear-gradient(to top right, #993333 0%, #669900 100%); */
+  /*  */
+  /* background: linear-gradient(to top right, #006600 0%, #ff9933 100%); */
+  /* background-color:darkolivegreen; */
+  /* background: linear-gradient(to top right, #660033 0%, #000066 100%); */
+  /* background-color:darkgoldenrod; */
+  /* background-color:greenyellow; */
 
-       
- }
+  /* background: linear-gradient(to top right, #993333 0%, #669900 100%); */
+}
 
-
- /* #charges{
+/* #charges{
       text-align: right;  
  }
 
@@ -408,150 +362,138 @@ background-image: 40px;
        text-align: right;  
  } */
 
- #priceDetails{
+#priceDetails {
+  width: 400px;
+  height: 320px;
+  color: rgb(131, 182, 142);
+  text-align: center;
+  /* color: white; */
+  font-size: 25px;
+  /* padding-left: 700px; */
+  /* padding-top: 70px; */
 
-       width: 400px;
-       height: 320px;
-        color: rgb(131, 182, 142);
-        text-align: center;
-        /* color: white; */
-        font-size: 25px;
-       /* padding-left: 700px; */
-              /* padding-top: 70px; */
-              
-/* padding-left: 30px; */
-             margin-left: 400px;
-              border: 20px solid rgb(43, 35, 13);
-              padding-top: 10px;
-              padding-bottom: 10px;
+  /* padding-left: 30px; */
+  margin-left: 400px;
+  border: 20px solid rgb(43, 35, 13);
+  padding-top: 10px;
+  padding-bottom: 10px;
 
-            border-radius: 30px;
- }
+  border-radius: 30px;
+}
 
- #billDetails{
-       width: 200px;
-       padding-bottom: 3px;
-       text-align: center;
-       color: rgb(83, 104, 44);    
-       background: rgb(10, 10, 39);
-        margin-left: 90px;
-        margin-bottom: 20px;
- }
+#billDetails {
+  width: 200px;
+  padding-bottom: 3px;
+  text-align: center;
+  color: rgb(83, 104, 44);
+  background: rgb(10, 10, 39);
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
 
- #btn_placeOrder{
-        /* font-size: 25px; */
-        align-items: center;
-        /* width:150px;
+#btn_placeOrder {
+  /* font-size: 25px; */
+  align-items: center;
+  /* width:150px;
         height:7px; */
-        /* padding-left: 700px; */
-        /* padding-top: 5px; */
-        color: rgb(117, 106, 182);
-        background-color: rgb(27, 63, 27) ;    
-            vertical-align: bottom;
-        
- }
-
-
- #paymentMode{
-        margin-top: 100px;
-        padding-top: 80px;
-        /* padding-left: 80px; */
-        width:600px;
-        height: 450px;
-        border: 30px solid rgb(53, 20, 35);
-        border-radius: 70px;
-        /* text-align: left; */
-
-        
-        
- }
-
-
- .paymentModeBackgroundImage{
-       background-size: cover; 
-      /* background-image: url("./Images/christmas-board-decors-1303098.jpg"); */
-             background-image: url("./Images/leftSideImage3.jpg");
-
-    /*  background-size: cover; */
-     background-position: center center;
-      height: 100vh;
-      position: fixed;
-      /* background-position: center; */
-      left: 0;
-      right: 0;
-      z-index: -1;
-      filter: blur(5px);
-      -webkit-filter: blur(5px);
-
-      /* -webkit-background-size:cover; */
-      
+  /* padding-left: 700px; */
+  /* padding-top: 5px; */
+  color: rgb(117, 106, 182);
+  background-color: rgb(27, 63, 27);
+  vertical-align: bottom;
 }
 
-
-#headingPayment{
-       width: 370px;
-       height:40px ;
-       text-align:center ;
-       margin-left: 70px;
-       margin-top: -40px;
-       color: rgb(128, 46, 8);
-       margin-bottom: 50px;
-       font-weight: bold;
-       background-color: rgb(171, 194, 182);
+#paymentMode {
+  margin-top: 100px;
+  padding-top: 80px;
+  /* padding-left: 80px; */
+  width: 600px;
+  height: 450px;
+  border: 30px solid rgb(53, 20, 35);
+  border-radius: 70px;
+  /* text-align: left; */
 }
 
-#lbl_radio{
+.paymentModeBackgroundImage {
+  background-size: cover;
+  /* background-image: url("./Images/christmas-board-decors-1303098.jpg"); */
+  background-image: url("./Images/leftSideImage3.jpg");
 
-       text-align: left;
-       padding-left: 180px;
-       color: indianred;
-       font-weight: bold;
-       font-size: 20px;
+  /*  background-size: cover; */
+  background-position: center center;
+  height: 100vh;
+  position: fixed;
+  /* background-position: center; */
+  left: 0;
+  right: 0;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+
+  /* -webkit-background-size:cover; */
 }
 
-
-#btn_pay{
-       color: rgb(117, 106, 182);
-       background-color: rgb(27, 63, 27) ;
-       margin-top: 20px;
-       font-size: 20px;
+#headingPayment {
+  width: 370px;
+  height: 40px;
+  text-align: center;
+  margin-left: 70px;
+  margin-top: -40px;
+  color: rgb(128, 46, 8);
+  margin-bottom: 50px;
+  font-weight: bold;
+  background-color: rgb(171, 194, 182);
 }
 
-#lbl_pay{
-       color: rgb(15, 21, 68);
-       background:rgb(79, 210, 214);
-       font-weight: bold;
+#lbl_radio {
+  text-align: left;
+  padding-left: 180px;
+  color: indianred;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-#headingPaymentCard{
-       width: 500px;
-       height:40px ;
-       text-align:center ;
-       /* margin-left: 70px; */
-       color: rgb(128, 46, 8);
-       margin-top: -50px;
-       margin-bottom: 50px;
-       font-weight: bold;
-       background-color: rgb(171, 194, 182);
-       /* margin-bottom: -10px; */
+#btn_pay {
+  color: rgb(117, 106, 182);
+  background-color: rgb(27, 63, 27);
+  margin-top: 20px;
+  font-size: 20px;
 }
 
-#lbl_card{
-       text-align: right;
-       padding-right:400 px;
-       margin-right: 100px;
-       color: indianred;
-       font-weight: bold;
-       font-size: 18px;
-       /* margin-top: 10px; */
-       margin-top: -10px;
+#lbl_pay {
+  color: rgb(15, 21, 68);
+  background: rgb(79, 210, 214);
+  font-weight: bold;
 }
 
-#btn_pay_card{
-       color: rgb(133, 148, 77);
-       background-color: rgb(27, 63, 27) ;
-       /* margin-top: 20px; */
-       font-size: 25px;
-       margin-top: 20px;
-       
+#headingPaymentCard {
+  width: 500px;
+  height: 40px;
+  text-align: center;
+  /* margin-left: 70px; */
+  color: rgb(128, 46, 8);
+  margin-top: -50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  background-color: rgb(171, 194, 182);
+  /* margin-bottom: -10px; */
+}
+
+#lbl_card {
+  text-align: right;
+  padding-right: 400 px;
+  margin-right: 100px;
+  color: indianred;
+  font-weight: bold;
+  font-size: 18px;
+  /* margin-top: 10px; */
+  margin-top: -10px;
+}
+
+#btn_pay_card {
+  color: rgb(133, 148, 77);
+  background-color: rgb(27, 63, 27);
+  /* margin-top: 20px; */
+  font-size: 25px;
+  margin-top: 20px;
 }
